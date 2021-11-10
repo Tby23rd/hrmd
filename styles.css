@@ -27,7 +27,6 @@ img {
 .container {
   padding: 2px 16px;
 }
-/*
 div {
   display: block;
 }
@@ -37,21 +36,29 @@ div {
       margin: 20px;
       max-width: fit-content;
       height: fit-content;
+      object-fit: cover;
+      filter: brightness(.8);
   }
-.bgimg{          
-      position: absolute;
-      top: 0;
-      left: 0;
-      opacity: 0.8; 
-  }
+
 .words{
       z-index: 9;
       margin: 20px; 
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: black;
+      opacity: 0.9;
+      color: white;
+      font-family: 'Roboto', sans-serif;
   }
-*/
-.words{
-  background-color: #048096;
+
+.other{
+  margin: 5%;
+  border: 2px solid #048096;
+  padding: 5%;
 }
+
 .container1 {
   border: 2px solid #048096;
   border-radius: 5px;
